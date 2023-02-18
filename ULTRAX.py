@@ -18,13 +18,15 @@ from LEGENDX import devs, id, ID
 id = 1967548493
 ID =  1967548493
 
-API_ID = os.environ.get("APP_ID", None)
-API_HASH = os.environ.get("API_HASH", None)
-token = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
+API_ID = os.environ.get("17651177", None)
+API_HASH = os.environ.get("7d089f4a94b0f470ce2233fc58c35799
+
+", None)
+token = os.environ.get("6270669239:AAEI08femrXfhFjG84HoXWkP8mlVA-FzLHQ", None)
 xbot = TelegramClient("legend", API_ID, API_HASH).start(bot_token=token)
 import time
 MESSAGE = os.environ.get("ALIVE_MSG", None)
-if MESSAGE is None:
+if MESSAGE is None: 
    MSG = '''
 🔥🔥 THE ULTRA X IS ONLINE 🔥🔥
 I AM HERE FOR MY MASTER PROTECTION
